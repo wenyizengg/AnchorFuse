@@ -1,4 +1,3 @@
-# AnchorSync
 # What is AnchorSync
 
 **AnchorSync** is a persistent multi-user augmented reality system designed to share and restore virtual anchors across different devices and application sessions.
