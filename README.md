@@ -4,7 +4,7 @@
 
 It uses a hybrid localisation approach that combines **geographic positioning** and **visual localisation**. GPS provides an approximate anchor preview over a larger area, allowing nearby anchors to be discovered and placed coarsely. As the user approaches the saved location, visual features from the surrounding environment are used to refine the anchor pose and achieve more accurate restoration.
 
-In short, AnchorSync provides:
+In short, LocusRelay provides:
 
 * **Persistent multi-user AR** across multiple devices
 * **Cross-device and cross-session anchor restoration**
