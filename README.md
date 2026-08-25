@@ -10,16 +10,20 @@ In short, AnchorFuse provides:
 * **Cross-device and cross-session anchor restoration**
 * **GPS-based coarse anchor placement**
 * **Visual localisation for accurate pose refinement**
+<br>
 
 
+# System Overview & Demonstration
 
-## System Overview & Demonstration
-
-A short system overview and demonstration (under 5 minutes), including test results, is available here: 
+A short system overview and demonstration (under 5 minutes), including indoor/outdoor tests, is available here: 
 
 <a href="https://youtu.be/hF8DkuSWqhc">
   <img src="assets/video_thumbnail.png" width="700" alt="AnchorFuse system demonstration video">
 </a>
+
+<br>
+
+
 
 
 
