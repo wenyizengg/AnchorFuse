@@ -13,4 +13,8 @@ In short, AnchorFuse provides:
 
 ## System Overview & Demonstration
 
-[![Persistent Multi-User AR Anchoring Demo](assets/video_thumbnail.png)](https://youtu.be/hF8DkuSWqhc)
+A short system overview and demonstration (under 5 minutes), including test results, is available here: https://youtu.be/hF8DkuSWqhc
+
+
+
+
