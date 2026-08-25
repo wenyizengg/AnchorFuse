@@ -1,4 +1,4 @@
-# What is AnchorFuse
+# AnchorFuse
 
 **AnchorFuse** is a persistent multi-user augmented reality system designed to share and restore virtual anchors across different devices and application sessions.
 
@@ -46,16 +46,22 @@ The system uses geographic positioning for coarse anchor discovery and placement
 <br>
 <br>
 
+# Evaluation
+
+The system was evaluated through indoor and outdoor tests using multiple iOS devices. Cross-device anchor restoration was successfully demonstrated, as well as persistence across separate application sessions. GPS-based placement provided coarse anchor previews outdoors, while visual localisation refined the anchor pose when sufficient visual correspondences were available. Indoors, where GPS accuracy was limited, anchors could be restored directly through visual localisation.
+
+<br>
+
 # Anchor Localisation
 
 AnchorFuse combines two complementary localisation approaches: geographic positioning for coarse placement over larger distances, and visual localisation for more accurate restoration when the previously observed environment becomes visible.
-<br>
+
 ### Geographic Positioning
 
 When an anchor is saved, its geographic position is estimated from the device location, heading, and its pose within the current AR session. When another client approaches the area, nearby anchors are retrieved from the server and their stored geographic coordinates are converted into approximate poses in the new AR session.
 
 This provides an immediate GPS-based preview before visual localisation is available. Because consumer-device GPS can contain significant horizontal and vertical error, this placement is treated only as a coarse estimate.
-<br>
+
 ### Visual Localisation
 
 When an anchor is saved, reference keyframes of the surrounding environment are captured. ORB features are extracted and associated with metric 3D landmarks obtained from LiDAR depth data.
@@ -81,10 +87,25 @@ Once a valid pose is recovered, the GPS based preview is replaced by the more ac
 
 <br>
 
+# Requirements
+
+The project depends on the following hardware and software:
+
+* An iOS device with LiDAR support
+* ARKit and RealityKit
+* OpenCV iOS framework
+* C++17
+* Boost.Asio
+* PostgreSQL with PostGIS
+
+The repository contains the client and server source code. To run the system, the dependencies listed above must be installed and configured.
+
+<br>
+
+
 # License
 
 This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
-
 
 
 
