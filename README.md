@@ -13,7 +13,11 @@ In short, AnchorFuse provides:
 
 ## System Overview & Demonstration
 
-A short system overview and demonstration (under 5 minutes), including test results, is available here: https://youtu.be/hF8DkuSWqhc
+A short system overview and demonstration (under 5 minutes), including test results, is available here: 
+
+<a href="https://youtu.be/hF8DkuSWqhc">
+  <img src="assets/video_thumbnail.png" width="700" alt="AnchorFuse system demonstration video">
+</a>
 
 
 
