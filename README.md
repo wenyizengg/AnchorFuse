@@ -11,6 +11,6 @@ In short, AnchorFuse provides:
 * **GPS-based coarse anchor placement**
 * **Visual localisation for accurate pose refinement**
 
-## Demo Video
+## System Overview & Demonstration
 
-[![Persistent Multi-User AR Anchoring Demo](assets/opening.png)](https://youtu.be/hF8DkuSWqhc)
+[![Persistent Multi-User AR Anchoring Demo](assets/video_thumbnail.png)](https://youtu.be/hF8DkuSWqhc)
