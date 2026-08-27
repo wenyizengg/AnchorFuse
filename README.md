@@ -102,6 +102,11 @@ The repository contains the client and server source code. To run the system, th
 
 <br>
 
+# Configuration
+
+Before running the iOS client, update `host_address` in `Coordinator.swift` to the IP address of the machine running the AnchorFuse server.
+
+<br>
 
 # License
 
